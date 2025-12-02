@@ -138,15 +138,10 @@ JaCoCo (cobertura de testes)
 
 Durante o desenvolvimento deste trabalho:
 
-A IA foi utilizada para estruturar o documento,
-
-Auxiliar na formatação de códigos,
+A IA foi utilizada para estruturar o documento
 
 Auxiliar na depuração de erros de build (Maven, Checkstyle, Surefire),
 
-Gerar exemplos de cenários BDD,
-
-Melhorar a organização geral do projeto,
 
 E otimizar a escrita deste README.
 
