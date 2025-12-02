@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="pt"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Conta.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">historia</a> &gt; <a href="index.source.html" class="el_package">com.example</a> &gt; <span class="el_source">Conta.java</span></div><h1>Conta.java</h1><pre class="source lang-java linenums">package com.example;
+
+/**
+ * Representa uma conta bancária simples com número, nome do titular,
+ * CPF, senha e saldo.
+ */
+public class Conta {
+    private String numero;
+    private String nome;
+    private String cpf;
+    private String senha;
+    private double saldo;
+
+    /**
+     * Cria uma nova conta.
+     *
+     * @param numero número único da conta
+     * @param nome   nome do titular
+     * @param cpf    CPF do titular
+     * @param senha  senha de acesso
+     * @param saldo  saldo inicial
+     */
+<span class="nc" id="L23">    public Conta(String numero, String nome, String cpf, String senha, double saldo) {</span>
+<span class="nc" id="L24">        this.numero = numero;</span>
+<span class="nc" id="L25">        this.nome = nome;</span>
+<span class="nc" id="L26">        this.cpf = cpf;</span>
+<span class="nc" id="L27">        this.senha = senha;</span>
+<span class="nc" id="L28">        this.saldo = saldo;</span>
+<span class="nc" id="L29">    }</span>
+
+    /**
+     * @return número da conta.
+     */
+    public String getNumero() {
+<span class="nc" id="L35">        return numero;</span>
+    }
+
+    /**
+     * @return nome do titular da conta.
+     */
+    public String getNome() {
+<span class="nc" id="L42">        return nome;</span>
+    }
+
+    /**
+     * @return CPF do titular da conta.
+     */
+    public String getCpf() {
+<span class="nc" id="L49">        return cpf;</span>
+    }
+
+    /**
+     * @return senha cadastrada na conta.
+     */
+    public String getSenha() {
+<span class="nc" id="L56">        return senha;</span>
+    }
+
+    /**
+     * @return saldo atual da conta.
+     */
+    public double getSaldo() {
+<span class="nc" id="L63">        return saldo;</span>
+    }
+}
+
+
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.11.202310140853</span></div></body></html>
